@@ -1,0 +1,5 @@
+#!/bin/bash
+
+open-port 80
+open-port 3000
+open-port 22

@@ -1,0 +1,13 @@
+name: gogs
+summary: A self-hosted Git service written in Go
+maintainer: Charles Butler <charles@Bushido>
+description: |
+    The goal of this project is to make the easiest, fastest and most painless way to set up a self-hosted Git service. With Go, this can be done in independent binary distribution across ALL platforms that Go supports, including Linux, Mac OS X, and Windows.
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://juju.ubuntu.com/docs/authors-charm-metadata.html#charm-metadata
+  - misc
+subordinate: false
+provides:
+  website:
+    interface: http
